@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CloudCar Rentals</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🚗 CloudCar Rentals</h1>
+    <p>Book your ride in seconds!</p>
+  </header>
+
+  <section class="cars">
+    <h2>Available Cars</h2>
+    <div class="car-list">
+      <div class="car">
+        <img src="https://via.placeholder.com/200" alt="Sedan" />
+        <h3>Sedan</h3>
+        <p>₹2,000/day</p>
+      </div>
+      <div class="car">
+        <img src="https://via.placeholder.com/200" alt="SUV" />
+        <h3>SUV</h3>
+        <p>₹3,500/day</p>
+      </div>
+      <div class="car">
+        <img src="https://via.placeholder.com/200" alt="Hatchback" />
+        <h3>Hatchback</h3>
+        <p>₹1,800/day</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="booking">
+    <h2>Book a Car</h2>
+    <form id="bookingForm">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" required />
+
+      <label for="car">Select Car:</label>
+      <select id="car" required>
+        <option value="">--Select--</option>
+        <option value="Sedan">Sedan</option>
+        <option value="SUV">SUV</option>
+        <option value="Hatchback">Hatchback</option>
+      </select>
+
+      <label for="date">Pickup Date:</label>
+      <input type="date" id="date" required />
+
+      <button type="submit">Book Now</button>
+    </form>
+    <p id="message"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 CloudCar Rentals | Powered by Azure</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

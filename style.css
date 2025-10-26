@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f2f2f2;
+}
+
+header {
+  background: #0078d7;
+  color: white;
+  text-align: center;
+  padding: 1.5em;
+}
+
+.cars {
+  text-align: center;
+  padding: 2em;
+}
+
+.car-list {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+.car {
+  background: white;
+  padding: 1em;
+  border-radius: 8px;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.car img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.booking {
+  background: white;
+  padding: 2em;
+  width: 90%;
+  max-width: 400px;
+  margin: 2em auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+button {
+  background: #0078d7;
+  color: white;
+  border: none;
+  padding: 0.8em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005a9e;
+}
+
+footer {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 1em;
+}
